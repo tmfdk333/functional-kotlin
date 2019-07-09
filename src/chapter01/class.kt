@@ -32,3 +32,15 @@ fun main(args: Array<String>) {
     val myCaramelCupcake = Cupcake("캐러멜")
 }
 */
+/*
+class Cupcake(val flavour: String) {
+    fun eat(): String {
+        return "냠냠냠, 맛있는 $flavour 컵케이크"
+    }
+}
+
+fun main(args: Array<String>) {
+    val myBlueberryCupcake = Cupcake("블루베리")
+    println(myBlueberryCupcake.eat())
+}
+*/
