@@ -19,3 +19,16 @@ fun main(args: Array<String>) {
     println("내 컵케이크에는 ${myCupcake.flavour}가 있다.")
 }
 */
+/*
+class Cupcake(flavour: String) {
+    val flavour = flavour
+}
+// class Cupcake(val flavour: String)
+
+fun main(args: Array<String>) {
+    val myBlueberryCupcake = Cupcake("블루베리")
+    val myAlmondCupcake = Cupcake("아몬드")
+    val myCheeseCupcake = Cupcake("치즈")
+    val myCaramelCupcake = Cupcake("캐러멜")
+}
+*/
