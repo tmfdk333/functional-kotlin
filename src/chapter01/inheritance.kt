@@ -19,3 +19,31 @@ fun main(args: Array<String>) {
     println(myBlueberryCupcake.eat())
 }
 */
+/*
+open class BakeryGood(val flavour: String) {
+    fun eat(): String {
+        return "냠냠냠, 맛있는 $flavour ${name()}"
+    }
+
+    open fun name(): String {
+        return "베이커리 제품"
+    }
+}
+
+class Cupcake(flavour: String): BakeryGood(flavour) {
+    override fun name(): String {
+        return "컵케이크"
+    }
+}
+
+class Biscuit(flavour: String): BakeryGood(flavour) {
+    override fun name(): String {
+        return "비스킷"
+    }
+}
+
+fun main(args: Array<String>) {
+    val myBlueberryCupcake = Cupcake("블루베리")
+    println(myBlueberryCupcake.eat())
+}
+*/
